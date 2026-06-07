@@ -1,0 +1,46 @@
+main {
+
+}
+
+main section.escolha {
+    text-align: center;
+    margin-top: 40px;
+}
+
+main section.escolha div h2 {
+    color: white;
+}
+
+main section.level {
+    margin-top: 40px;
+}
+
+main section.level article.jms {
+    background-color: var(--sf);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    border-radius: 25px;
+    height: 50px;
+   
+}
+
+main section.level article.jms div {
+    border: none;
+    margin-top: -8px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 25px;
+    padding: 5px;
+    width: 100%;
+    cursor: pointer;
+    color: var(--st);  
+}
+
+
+/* fim escolha*/
+
+main section.curso {
+    margin-top: 40px;
+
+}
+

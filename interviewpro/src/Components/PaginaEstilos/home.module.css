@@ -1,0 +1,96 @@
+
+main {
+    margin-bottom: 155px;
+}
+
+main section.icone   {
+    margin-top: 40px;
+}
+
+main section.icone div {
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    align-items: center;
+}
+
+main section.icone div span {
+    font-size: 20px;
+    margin: 3px;
+    color: white;
+    font-weight: bold;
+}
+main section.icone div span svg {
+    font-size: 70px;
+    background-color: var(--azul);
+    border-radius: 40%;
+    color: white;
+}
+
+/* fim icone*/
+
+
+main section.texto {
+   color: white;
+   margin-top: 15px;
+}
+
+main section.texto div.txtg {
+    font-size: 3em;
+    font-weight: bold;   
+}
+
+main section.texto div.txtg span {
+    color: var(--azul);
+}
+
+main section.texto div.txtp {
+    color: var(--st);
+    margin-top: 7px;
+}
+
+
+/* fim texto*/
+
+
+main section.bt {
+    margin-top: 60px;
+}
+
+
+main section.tt {
+    margin-top: 100px;
+    color: var(--st);
+    font-weight: bold;
+}
+
+
+main section.expert {
+    margin-top: 20px;
+
+}
+
+main section.expert article {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: var(--sf);
+    border-radius: 25px;
+     height: 80px;
+  
+}
+
+main section.expert article div {
+    
+    text-align: center;
+       
+}
+main section.expert article div svg {
+
+    margin-top: -5px;
+}
+
+main section.expert article div.energy {
+    color: white;
+    font-weight: bold;
+   
+}
