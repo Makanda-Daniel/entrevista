@@ -23,13 +23,11 @@ function Inter () {
                 <div onClick={ ()=> setEstado(2)} className={ estado === 2 ? "azu" : "normal"}>senior</div>
             </article>
            </section>
-
-           <section className={styles.curso}> 
+            <section className={styles.curso}> 
             <Btinter/>
-
-            
-
            </section>
+
+
         </main>
 
     )

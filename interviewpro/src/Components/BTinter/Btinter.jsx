@@ -1,6 +1,7 @@
 import styles from "../BTinter/btinter.module.css"
 import { useState } from "react"
-import { Navigate, useNavigate } from "react-router-dom"
+
+import { useNavigate} from "react-router-dom"
 
 function Btinter ({curso,nome,descr}) {
 
@@ -9,7 +10,7 @@ function Btinter ({curso,nome,descr}) {
 
 
 
-    const [status, setStatus] = useState ("")
+    const [status, setStatus] = useState ()
     return (
 
        
@@ -45,7 +46,7 @@ function Btinter ({curso,nome,descr}) {
             </article>
 
             <article className={styles.btstart}>
-            <button onClick={status > 0 ? ()=> navega("/") :"normal"} >start sisseon</button>
+            <button onClick={status > 0 ? ()=> navega("/Pratica") :"normal"} >start sisseon</button>
             </article>
         </section> 
 

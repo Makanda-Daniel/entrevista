@@ -38,7 +38,7 @@ function Footer () {
                <span onClick={ ()=> setClicar(2) } className={clicar === 2 ? "vermelho" : "normal"}>progresso</span>
                </Link>
 
-               <Link> 
+               <Link  to="/Perfil" > 
                 <p><FiUser /></p> 
                <span onClick={ ()=> setClicar(3) } className={clicar === 3 ? "vermelho" : "normal"}>perfil</span>
                </Link>

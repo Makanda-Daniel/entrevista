@@ -48,4 +48,5 @@ main{
 
 .borda {
     border: 1px solid var(--azul);
+    box-shadow: 1px 1px 4px var(--azul);
 }
