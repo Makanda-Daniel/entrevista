@@ -19,11 +19,13 @@ footer div {
 
 footer div a {
     text-decoration: none;
+    
 }
 footer div a  span,p {
     text-align: center;
     margin: 5px;
     text-transform: capitalize;
+    font-weight: bold;
     color: var(--st);
 }
  svg {
