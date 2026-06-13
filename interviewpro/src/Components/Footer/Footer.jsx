@@ -1,4 +1,4 @@
-import styles from "../Footer/footer.module.css"
+import "../Footer/footer.css"
 import { BiHomeAlt } from "react-icons/bi";
 import { FiUser } from "react-icons/fi";
 import { GiProgression } from "react-icons/gi";
@@ -6,20 +6,10 @@ import { RiFocus2Line } from "react-icons/ri";
 import { useState } from "react";
 import { Link } from "react-router-dom"
 
-
 function Footer () {
 
     const [clicar, setClicar] = useState(0)
      
-
-
-
-
-
-
-
-
-
     return (
         <footer>
             <div>
