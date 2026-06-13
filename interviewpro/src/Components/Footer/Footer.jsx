@@ -1,4 +1,4 @@
-import styles from "./footer.module.css"
+import styles from "../Footer/footer.module.css"
 import { BiHomeAlt } from "react-icons/bi";
 import { FiUser } from "react-icons/fi";
 import { GiProgression } from "react-icons/gi";
@@ -33,7 +33,7 @@ function Footer () {
                <span onClick={ ()=> setClicar(1) } className={clicar === 1 ? "vermelho" : "normal"}> entrevista</span>
                </Link>
 
-               <Link> 
+               <Link  to="/Pro"> 
                 <p><GiProgression /></p> 
                <span onClick={ ()=> setClicar(2) } className={clicar === 2 ? "vermelho" : "normal"}>progresso</span>
                </Link>
