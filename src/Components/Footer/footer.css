@@ -1,0 +1,35 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--sf);
+    border-top-left-radius: 30%;
+    border-top-right-radius: 30%;
+    padding: 40px;
+    z-index: 2;
+   
+}
+
+footer div {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+footer div a {
+    text-decoration: none;
+    
+}
+footer div a  span,p {
+    text-align: center;
+    margin: 5px;
+    text-transform: capitalize;
+    font-weight: bold;
+    color: var(--st);
+}
+ svg {
+    font-size: 25px;
+    color: var(--st);
+    
+}
