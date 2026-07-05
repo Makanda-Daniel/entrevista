@@ -13,17 +13,18 @@ function Home (){
             <section className={styles.icone} >
                 <div>
                     <span><RiFocus2Line /></span>
-                    <span>InterviewFlow</span>
+                    <span>InterviewPro</span>
                 </div>
             </section>
 
             <section className={styles.texto}>
                 <div className={styles.txtg}>
-                    Pratice real InterviewFlow <span> before de real on</span>
+                    Pratica com o InterviewPro <span> antes da entrevista real.</span>
               
                 </div>
                 <div className={styles.txtp}>
-                    simule real job InterviewFlow with IA and get hired faster with expert feedback
+                    simule uma entrevista de emprego real com IA e seja contratado mais rápido com feedback de especialista.
+
                 </div>
 
             </section>
@@ -35,14 +36,14 @@ function Home (){
 
             <section className={styles.tt}>
                 <div>
-                    EXPERT MODULES
+                    MÓDULOS ESPECIAIS
                 </div>
             </section>
           
             <section className={styles.expert}>
                 <article>
                     <div><FaRobot /></div>
-                    <div className={styles.energy}>real IA InterviewFlow</div>
+                    <div className={styles.energy}>IA com InterviewPro</div>
                     <div><IoIosArrowForward /></div>
                 </article>
             </section>
@@ -50,7 +51,7 @@ function Home (){
             <section className={styles.expert}>
                 <article>
                     <div><SlEnergy /></div>
-                    <div className={styles.energy}>Instant feedback</div>
+                    <div className={styles.energy}>Feedback Instantâneo</div>
                     <div><IoIosArrowForward /></div>
                 </article>
             </section>

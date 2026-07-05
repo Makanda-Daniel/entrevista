@@ -3,10 +3,10 @@ function Bthome () {
     return (
             <section>
                 <div>
-                    <button className={styles.start}>start simulation</button>
+                    <button className={styles.start}>Começar a simulação</button>
                 </div>
                 <div>
-                    <button className={styles.expo}>Explore Components</button>
+                    <button className={styles.expo}>Explore Componentes</button>
                 </div>
             </section>
 

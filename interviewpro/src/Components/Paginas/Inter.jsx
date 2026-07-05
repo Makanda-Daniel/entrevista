@@ -9,9 +9,9 @@ function Inter () {
         <main>
            <section className={styles.escolha}>
             <div>
-                <h2>Choose your Interview path</h2>
+                <h2>Escolhe o Seu Caminho Para Entrevista</h2>
                 <p>
-                    Select your career track and experience level
+                    Selecione a sua área de carreira e nível de experiência
                 </p>
             </div>
            </section>

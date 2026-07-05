@@ -46,6 +46,9 @@ function Pratica () {
                     <FiUser />
                     <p>makanda daniel - engineer</p>
                 </div>
+                <div className={styles.pergunta}>
+                    Como podemos resolver um bug? 
+                </div>
             </section>
 
             <section className={styles.sms}>
@@ -54,7 +57,7 @@ function Pratica () {
                         <textarea name="" id=""></textarea>
                     </div>
                     <div>
-                        <button>enviar resposta</button>
+                        <button>Enviar resposta</button>
                     </div>
                 </article>
 
