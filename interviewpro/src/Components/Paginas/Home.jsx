@@ -19,7 +19,7 @@ function Home (){
 
             <section className={styles.texto}>
                 <div className={styles.txtg}>
-                    Pratica com o InterviewPro <span> antes da entrevista real.</span>
+                   <h1> Pratica com o InterviewPro <span> antes da entrevista real.</span> </h1>
               
                 </div>
                 <div className={styles.txtp}>
