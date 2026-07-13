@@ -1,0 +1,35 @@
+
+
+section.progtxt {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: left;
+    
+}
+
+section.progtxt div p {
+    text-align: left;
+}
+
+section.progtxt div h2 {
+    color: white;
+
+}
+section.progcard {
+    margin-bottom: 30px;
+}
+section.progcard article div {
+    padding: 10px;
+    border: 1px dashed black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: var(--st);
+}
+
+section.progcard article div.baixo {
+    border: none;  
+}
+
+
+

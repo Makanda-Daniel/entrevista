@@ -1,0 +1,21 @@
+section.btprog {
+   
+}
+section.btprog article {
+    padding: 15px;
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
+
+section.btprog article div {
+   
+}
+
+section.btprog article div.pontuacao {
+    text-align: right;
+}
+
+section.btprog article div.pontuacao h3 {
+    color: rgba(19, 168, 19, 0.774);
+}
