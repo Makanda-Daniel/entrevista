@@ -20,15 +20,30 @@ main section.perfil div svg {
 
 main section.cardd article {
     margin-top: 70px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    
 
 
 }
 
 main section.cardd article div {
-    border-bottom: 1px solid gray;
+    
     padding: 10px;
     color: white;
     font-weight: bold;
     text-transform: capitalize;
+  
+    margin: 5px;
+}
 
+main section.cardd article div.fim {
+    text-align: center;
+    
+    border-bottom: 1px solid;
+}
+
+main section.cardd article div svg {
+    
 }

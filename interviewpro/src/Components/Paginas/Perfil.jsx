@@ -1,5 +1,8 @@
 import styles from "../PaginaEstilos/perfil.module.css"
 import { FiUser } from "react-icons/fi";
+import { BiHomeAlt } from "react-icons/bi";
+import { RiFocus2Line } from "react-icons/ri";
+import { IoIosArrowForward } from "react-icons/io";
 function Perfil () {
     return(
         <main>
@@ -12,9 +15,19 @@ function Perfil () {
 
             <section className={styles.cardd}>
                 <article>
-                    <div>platform settings</div>
-                    <div>security & privacy</div>
-                    <div>connected accounts</div>
+                    <div><RiFocus2Line/></div>
+                    <div>Definições da plataforma</div>
+                    <div className={styles.fim} >< IoIosArrowForward/></div>
+
+                    <div>< BiHomeAlt/></div>
+                    <div>Definições da plataforma</div>
+                    <div className={styles.fim} >< IoIosArrowForward/></div>
+
+                    <div><FiUser/></div>
+                    <div>Criar uma conta</div>
+                    <div className={styles.fim} >< IoIosArrowForward/></div>
+                  
+
                 </article>
             </section>
         </main>
