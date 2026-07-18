@@ -20,7 +20,7 @@ function Perfil () {
                     <div className={styles.fim} >< IoIosArrowForward/></div>
 
                     <div>< BiHomeAlt/></div>
-                    <div>Definições da plataforma</div>
+                    <div>Segurança e Privacidade</div>
                     <div className={styles.fim} >< IoIosArrowForward/></div>
 
                     <div><FiUser/></div>
